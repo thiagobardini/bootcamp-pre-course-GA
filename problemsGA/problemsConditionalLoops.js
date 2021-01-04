@@ -7,10 +7,10 @@
 
 const buckledUp = false;
 
-if(buckledUp === false){
-  console.log("You are not buckled up. Click it or ticket!");
-}else{
-  console.log("You buckled up your seat belt. What a safe driver you are!");
+if (buckledUp === false) {
+   console.log("You are not buckled up. Click it or ticket!");
+} else {
+   console.log("You buckled up your seat belt. What a safe driver you are!");
 }
 
 
@@ -24,11 +24,11 @@ if(buckledUp === false){
 const price = 7.50;
 
 if (price <= 5) {
-  console.log("I'll take it!")
+   console.log("I'll take it!")
 } else if (price > 5 && price <= 10) {
-  console.log("Take off 10% and you've got a deal.")
+   console.log("Take off 10% and you've got a deal.")
 } else {
-  console.log(price+" for this? You must be joking!")
+   console.log(price + " for this? You must be joking!")
 }
 
 
@@ -47,12 +47,12 @@ let bikeColor = "blue";
 let bikeBrand = "trek";
 let bikePrice = 240;
 
-if(bikePrice < 250 && bikeColor === "blue") {
+if (bikePrice < 250 && bikeColor === "blue") {
    console.log(`"I'd like to ride this ${bikeColor} ${bikeBrand}`)
 } else if (bikePrice > 1000 || bikeBrand === "schwinn") {
-   console.log("I'd like to ride this "+bikeColor+" "+bikeBrand)
-} else if (bikePrice >= 500 && bikePrice <=750 && bikeColor === "orange") {
-   console.log("I'd like to ride this "+bikeColor+" "+bikeBrand)
+   console.log("I'd like to ride this " + bikeColor + " " + bikeBrand)
+} else if (bikePrice >= 500 && bikePrice <= 750 && bikeColor === "orange") {
+   console.log("I'd like to ride this " + bikeColor + " " + bikeBrand)
 }
 
 
@@ -65,11 +65,11 @@ if(bikePrice < 250 && bikeColor === "blue") {
 // Use a for loop to log how many years it has been and how much the investment is worth for each year.
 let investment = 1000;
 
-for(i = 0; i < 11; i++) {
-   if(i === 7){
-      investment= investment * .25;
+for (i = 0; i < 11; i++) {
+   if (i === 7) {
+      investment = investment * .25;
    } else {
-   investment = investment * 1.05;
+      investment = investment * 1.05;
    }
    console.log(`${i} years - ${investment}`);
 }
@@ -85,11 +85,11 @@ for(i = 0; i < 11; i++) {
 // HINT: You will need to use the modulus (%)
 let daysUntilTheFinale = 30;
 
-while (0 < daysUntilTheFinale) { 
-   if(daysUntilTheFinale % 7 === 0) {
+while (0 < daysUntilTheFinale) {
+   if (daysUntilTheFinale % 7 === 0) {
       console.log("Only " + daysUntilTheFinale / 7 + " week(s) until the last episode!");
    } else {
-      console.log(daysUntilTheFinale+" days until the last episode!")
+      console.log(daysUntilTheFinale + " days until the last episode!")
    }
    daysUntilTheFinale--;
 }
@@ -108,14 +108,14 @@ let enemyHealth = 5;
 
 let games = 0
 
-while(lasers > 0 && enemyHealth > 0){
-  if(Math.random() < .5) {
-  enemyHealth--;
-  } 
-    lasers--;
-    ++games;
-   
-    console.log(`Jogo #${games} - ${lasers} quantidade de lasers ${enemyHealth} quantidade of health \n`)
+while (lasers > 0 && enemyHealth > 0) {
+   if (Math.random() < .5) {
+      enemyHealth--;
+   }
+   lasers--;
+   ++games;
+
+   console.log(`Jogo #${games} - ${lasers} quantidade de lasers ${enemyHealth} quantidade of health \n`)
 }
 
 
