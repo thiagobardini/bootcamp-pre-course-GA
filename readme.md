@@ -6,7 +6,12 @@ Imagine that you’re an archaeologist and you’ve just uncovered evidence of a
 ![](https://i.imgur.com/veLgHaB.png)
 ## Topics 
    - Arrays and Objects
-   - Control Flow
+      - Math.random() - Returns a random number between 0 (inclusive) and 1 (exclusive).
+      - Math.floor() - Returns the largest integer less than or equal to a given number.
+         > Math.floor(Math.random() * 3); // returns a random integer from 0 to 2
+   - Control Flow 
+      - Conditionsal -> if... else if
+      - In the main conditionals, I nest an if... else statement to compare the player’s choice with the computer’s choice and determine the winner.
 ## Rules of the Game:
 The objective of "Lapis, Papyrus, Scalpellus" or “Rock, Paper, Scissors”  is to defeat your opponent by selecting a weapon that defeats their choice under the following rules:
  
