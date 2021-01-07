@@ -2,13 +2,17 @@
 “Rock, Paper, Scissors” 
 ![](https://i.imgur.com/veLgHaB.png)
 ## Lapis, Papyrus, Scalpellus DOM Manipulation
-Now that we have the ability to update the elements on the page, “Lapis, Papyrus, Scalpellus” can really begin to take off.
+Completing Lapis, Papyrus, Scalpellus
+Event listeners are the final piece of the puzzle for creating interactive webpages like our “Lapis, Papyrus, Scalpellus” game.
 
-We’ll start simple, by taking our existing work and adding one DOM function: the game results on the page. We’ve been using console.log to track this information so far, but it’s time to go big.
+</br>
 
-To start, let’s add some basic HTML in the HTML panel on CodePen — maybe the name of the game and any introductory message you want to include.
+Thus far, we’ve been keeping the player.currentChoice property the same. If we wanted to change it, we’d update the array index in the statement. But now, we can make things a bit more interesting with event listeners.
 
-Then, create a new function to display the result of the game on the webpage.
+</br>
 
-> Hint: You already have these results written out in the console.log in your conditional statements.
-> Think through how you can change them to display as a new HTML element.
+To start, we’ll need to create buttons that allow the player to make their choice. In the HTML, add three buttons representing the three choices for the game. (You could also add text above them to provide direction; maybe something like “Make your choice below.”)
+
+</br>
+
+Then, create a new function that listens for a click on the choice buttons. Once a button is clicked, update the player.currentChoice property with the option the user chose.

@@ -81,7 +81,6 @@ console.log("The biggest number is " + max)
 
 
 
-
 //////////////////////////////////////////////////////////////////
 // GA solution - Problem 3
 function printArray(arr) {
