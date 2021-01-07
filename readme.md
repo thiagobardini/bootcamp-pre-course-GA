@@ -1,21 +1,15 @@
-# Lapis Papyrus Scalpellus or “Rock, Paper, Scissors” 
-
-## Game Introduction:  An Exciting Discovery
-Imagine that you’re an archaeologist and you’ve just uncovered evidence of a game that the ancient Romans played, called “Lapis, Papyrus, Scalpellus.” You want to recreate it online to show the world your discovery. (Surprisingly enough, the game is exactly the same as the one we modern-day humans know as “Rock, Paper, Scissors.” Some things never change.)
-
+# Lapis Papyrus Scalpellus 
+“Rock, Paper, Scissors” 
 ![](https://i.imgur.com/veLgHaB.png)
-## Topics 
-   - Arrays and Objects
-      - Math.random() - Returns a random number between 0 (inclusive) and 1 (exclusive).
-      - Math.floor() - Returns the largest integer less than or equal to a given number.
-         > Math.floor(Math.random() * 3); // returns a random integer from 0 to 2
-   - Control Flow 
-      - Conditional -> if... else if
-         > In the main conditionals, I nest an if... else statement to compare the player’s choice with the computer’s choice and determine the winner.
-## Rules of the Game:
-The objective of "Lapis, Papyrus, Scalpellus" or “Rock, Paper, Scissors”  is to defeat your opponent by selecting a weapon that defeats their choice under the following rules:
- 
-   - Lapis(rock) smashes (or blunts) Scalpellus(scissors), so Lapis wins
-   - Scalpellus cut Papyrus (paper), so Scalpellus(scissors) win
-   - Papyrus (paper) covers Lapis (rock), so Papyrus (paper) wins
-   - If players choose the same weapon, neither win and the game is played again
+## Enhancing Lapis, Papyrus, Scalpellus
+The ancient Romans were all about efficiency. They’d be extremely flattered and grateful if you would make their game more efficient using functions. (Can you say blessings from Jupiter?)
+
+Redefine the separate pieces of action in the game as individual functions. This creates more testable and readable code.
+
+For now, you should include the following functions:
+
+- computerChooses(): The random index you generated.
+- compareChoices(): The conditional logic that compares the player’s and computer’s choices.
+
+Test the code by changing the player’s choice and see what happens in the console. Don’t forget to invoke your functions after you’ve called them.
+
