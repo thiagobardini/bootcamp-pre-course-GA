@@ -1,0 +1,55 @@
+<div class="adver">
+   <h1>Buy stuff from <span id="company-name">Stuff-Corp!</span></h1>
+   <p class="sales-pitch"> Without stuff, your life is incomplete!</p>
+   <p>You really should get some stuff.</p>
+</div>
+
+
+<!-- 
+document.querySelector('h2').innerHTML = 'Hello there!';
+updates the tag h2 to read “Hello there!”.
+
+document.querySelector('h2').style.color = 'blue';
+changes the color of the tag h2 to blue.
+
+document.querySelector('h2').className = 'complete';
+changes the class of the tag h2 to complete.
+
+document.querySelector('h2').parentNode;
+returns the parent element of the tag h2.
+
+document.querySelector('h2').childNodes;
+returns the child nodes of the tag h2.
+
+---
+
+const h1ID = document.querySelector('h1').getAttribute('id');
+This would store the ID attribute of the tag h1 in the variable called h1ID.
+
+document.querySelector('#title').setAttribute('class', 'blue');
+This would give the element with the ID of "title" a class of "blue.
+e.g.:
+document.querySelector('#company-name').setAttribute('class', 'urgent');
+
+document.querySelectorAll('p').removeAttribute('class');
+This would remove the class attribute from all p elements.
+
+---
+
+const paragraph = document.createElement('p');
+paragraph.innerText = "Your passwords did not match.";
+paragraph.setAttribute("class", "registration-error");
+
+// This is what's created: <p class="registration-error">Your passwords did not match.</p>
+
+---
+
+// First, we create the element and store it in a variable named newPost
+const newPost = document.createElement("p");
+// Then, we can set properties such as the innerText
+newPost.innerText = "JavaScript can be tough!";
+// Then, we can grab the parent element that we want to attach our new element to
+const postsDiv = document.querySelector("#company-name");
+// Finally, we use the appendChild method to add our newPost inside of the postsDiv
+postsDiv.appendChild(newPost);
+-->

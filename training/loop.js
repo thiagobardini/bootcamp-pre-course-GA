@@ -1,10 +1,10 @@
-for (let i = 0; i < 100; i+=2) {
-   console.log(i);
- }
- 
+for (let i = 0; i < 100; i += 2) {
+    console.log(i);
+}
+
 // for 
 for (let i = 0; i < 4; i++) {
-   console.log(i);
+    console.log(i);
 }
 
 // for -> array

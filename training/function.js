@@ -83,7 +83,7 @@ function embraceChange() {
 embraceChange();
 */
 
-const embraceChange = () => { 
+const embraceChange = () => {
    console.log("Now I'm an arrow function.");
 }
 embraceChange();

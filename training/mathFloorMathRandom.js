@@ -1,13 +1,13 @@
 const computer = {
    currentChoice: null
-} 
+}
 
 // object
 const player = {
    currentChoice: null
 }
 
-let gameOptions = ["lapis","Papyrus","Scalpellus"];
+let gameOptions = ["lapis", "Papyrus", "Scalpellus"];
 
 // Math.floor() -> transformar o numero em interger
 // Math.random() -> é um numero aleatorio 0 .. 0.15.. 0.99 -> nunca vai ser 1

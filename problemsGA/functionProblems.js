@@ -47,11 +47,11 @@ randomNumber(["num1", "num2", "num3", "num4", "num5"]);
 function randomNumber2(random) {
   let max = random[0];
   for (let i = 1; i < random.length; i++) {
-    if(random[i] > max){
-      max = random[i] 
+    if (random[i] > max) {
+      max = random[i]
     }
     console.log(random[i]);
-    console.log("The maximo number is "+ max)
+    console.log("The maximo number is " + max)
   }
 }
 
@@ -77,24 +77,24 @@ const random = [2, 23, 102, 1, 101];
 const gameNum = random;
 
 randomNumber(gameNum);
-console.log("The biggest number is "+ max)
+console.log("The biggest number is " + max)
 
 
 
 
 //////////////////////////////////////////////////////////////////
 // GA solution - Problem 3
-function printArray(arr){
-  for(let i = 0; i < arr.length; i++){
+function printArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
   }
 }
 printArray(["gold", "silver", "bronze", "participation trophy"])
 // GA solution - Problem 4
-function findMax(arr){
+function findMax(arr) {
   let max = arr[0];
-  for(let i = 1; i < arr.length; i++){
-    if(arr[i] > max){
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
       max = arr[i];
     }
   }
