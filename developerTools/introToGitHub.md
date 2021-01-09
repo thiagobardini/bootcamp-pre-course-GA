@@ -32,3 +32,10 @@ git clone https://url-to-clone
 ````
 
 You can find the URL to clone by clicking the green button that says “Clone or download.”
+
+### Step 6: Submitting a Pull Request
+At this point, your local and remote repositories contain the changes you’ve made. If you want to share these changes with the original repository owner, Joyent, you can submit a <b>pull request</b>.
+
+A pull request effectively says, “Hello, maintainer of Project X. I made some changes here in my forked copy, and I think they’re good ones. You should add them to your repository.”
+
+Pull requests are a GitHub feature, so you’ll need to head back to the browser to submit them.
