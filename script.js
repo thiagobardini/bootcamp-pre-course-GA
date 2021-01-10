@@ -20,12 +20,12 @@ function computerChooses(e) {
 
 function compareChoices(e) {
 
-   player.currentChoice = e.currentTarget.innerText;
+   player.currentChoice = e.currentTarget.innerText
 
-   computerChooses();
+   computerChooses()
 
-   if (computer.currentChoice === player.currentChoice) {
-      document.getElemnetById('result').innerText = `This round is a tie! The computer chose ${computer.currentChoice} and the player chose ${player.currentChoice}.`;
+   if(computer.currentChoice === player.currentChoice) {
+      document.getElementById('result').innerText = `This round is a tie! The computer chose ${computer.currentChoice} and the player chose ${player.currentChoice}.`;
    } else if (computer.currentChoice === choices[0]) {
       if (player.currentChoice === choices[2]) {
          document.getElementById('result').innerText = `The computer wins! The computer chose ${computer.currentChoice} and the player chose ${player.currentChoice}.`;
